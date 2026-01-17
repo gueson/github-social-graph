@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # 网站地图
-Sitemap: https://github-social-graph.com/sitemap.xml
+Sitemap: https://github-social-graph.vercel.app/sitemap.xml
 
 # 禁止爬虫访问的目录
 Disallow: /api/

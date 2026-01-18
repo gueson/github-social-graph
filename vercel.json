@@ -1,0 +1,9 @@
+{
+  "buildCommand": "cd client && pnpm build",
+  "outputDirectory": "client/dist",
+  "devCommand": "cd client && pnpm dev",
+  "framework": "vite",
+  "env": {
+    "VITE_GITHUB_API_TOKEN": "@github_api_token"
+  }
+}

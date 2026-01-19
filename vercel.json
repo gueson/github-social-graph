@@ -8,6 +8,10 @@
       "destination": "/api/index.js"
     },
     {
+      "source": "/(.*\\.(xml|txt|ico|png|jpg|jpeg|svg|json))$",
+      "destination": "/$1"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }

@@ -1,12 +1,4 @@
 # GitHub 社交图谱 - GitHub Social Graph
-
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/github-social-graph.svg)](https://github.com/yourusername/github-social-graph/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/yourusername/github-social-graph.svg)](https://github.com/yourusername/github-social-graph/network/members)
-[![GitHub Issues](https://img.shields.io/github/issues/yourusername/github-social-graph.svg)](https://github.com/yourusername/github-social-graph/issues)
-[![License](https://img.shields.io/github/license/yourusername/github-social-graph.svg)](https://github.com/yourusername/github-social-graph/blob/main/LICENSE)
-[![Node.js CI](https://github.com/yourusername/github-social-graph/actions/workflows/node.yml/badge.svg)](https://github.com/yourusername/github-social-graph/actions/workflows/node.yml)
-[![Vercel Deploy](https://vercelbadge.vercel.app/api/yourusername/github-social-graph)](https://github-social-graph.vercel.app)
-
 一个功能强大的 GitHub 社交网络关系可视化工具，帮助您探索 GitHub 上的社交图谱，发现共同连接和智能推荐潜在关注者。
 
 ## ✨ 核心功能

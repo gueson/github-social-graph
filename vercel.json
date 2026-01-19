@@ -3,7 +3,6 @@
   "outputDirectory": "dist",
   "devCommand": "pnpm dev",
   "installCommand": "pnpm install --include-dev",
-  "framework": "custom",
   "env": {
     "VITE_GITHUB_API_TOKEN": "@github_api_token"
   }

@@ -2,8 +2,5 @@
   "buildCommand": "pnpm build",
   "outputDirectory": "dist",
   "devCommand": "pnpm dev",
-  "installCommand": "pnpm install --include-dev",
-  "env": {
-    "VITE_GITHUB_API_TOKEN": "@github_api_token"
-  }
+  "installCommand": "pnpm install --include-dev"
 }

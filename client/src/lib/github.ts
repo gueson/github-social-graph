@@ -2,17 +2,12 @@ import useSWR from 'swr';
 import { toast } from 'react-hot-toast';
 
 const GITHUB_API_BASE = 'https://api.github.com';
-const GITHUB_API_TOKEN = import.meta.env.VITE_GITHUB_API_TOKEN || '';
 
-// 创建带有认证的 fetcher
+// 创建 fetcher 用于 GitHub 公共 API
 const fetcher = async (url: string) => {
   const headers: Record<string, string> = {
     'Accept': 'application/vnd.github.v3+json',
   };
-
-  if (GITHUB_API_TOKEN && GITHUB_API_TOKEN.trim()) {
-    headers['Authorization'] = `token ${GITHUB_API_TOKEN}`;
-  }
 
   const res = await fetch(url, { headers });
 
